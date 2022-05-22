@@ -1,0 +1,20 @@
+### list of students
+GET localhost:9082/students
+
+### save student
+POST localhost:9082/students
+Content-Type: application/json
+
+{
+
+  "id": "1",
+  "firstName": "Tahniat",
+  "lastName": "Ashraf",
+  "age": 34,
+  "address": {
+    "road": "road",
+    "flatNo": "flat",
+    "district": "district"
+  }
+
+}
